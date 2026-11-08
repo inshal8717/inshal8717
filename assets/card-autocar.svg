@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" role="img" aria-label="A car following a detected driving lane with a steering indicator">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080E1B"/><stop offset="1" stop-color="#0E1728"/></linearGradient>
+<path id="rd" d="M 62 306 C 190 306, 196 132, 326 132 C 456 132, 462 322, 592 322 L 700 322" fill="none"/>
+</defs>
+<style>
+  .mo { font-family: ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"DejaVu Sans Mono",monospace; }
+  .nm { font-family: Inter,"Helvetica Neue",Helvetica,"Segoe UI",system-ui,Arial,sans-serif; }
+
+  .flow { stroke-dasharray: 20 26; animation: fl 1.9s linear infinite; }
+  .band { animation: bp 4.2s ease-in-out infinite; }
+  .hud  { animation: hu 7s ease-in-out infinite; }
+  @keyframes fl { to { stroke-dashoffset: -46; } }
+  @keyframes bp { 0%,100%{opacity:.55} 50%{opacity:1} }
+  @keyframes hu { 0%,100%{transform:rotate(-20deg)} 26%{transform:rotate(16deg)} 62%{transform:rotate(-14deg)} }
+  @media (prefers-reduced-motion: reduce) { .flow,.band,.hud { animation:none } }</style>
+<rect width="760" height="430" rx="14" fill="url(#bg)"/>
+<rect x="0.5" y="0.5" width="759" height="429" rx="14" fill="none" stroke="#1B2C47" stroke-width="1" opacity="0.6"/>
+<text class="mo" x="30" y="44" font-size="14" fill="#8295AE" letter-spacing="1.3">LANE DETECTION</text>
+<line x1="44" y1="96" x2="716" y2="96" stroke="#1B2C47" stroke-width="1" opacity="0.16"/>
+<line x1="44" y1="126" x2="716" y2="126" stroke="#1B2C47" stroke-width="1" opacity="0.16"/>
+<line x1="44" y1="156" x2="716" y2="156" stroke="#1B2C47" stroke-width="1" opacity="0.16"/>
+<line x1="44" y1="186" x2="716" y2="186" stroke="#1B2C47" stroke-width="1" opacity="0.16"/>
+<line x1="44" y1="216" x2="716" y2="216" stroke="#1B2C47" stroke-width="1" opacity="0.16"/>
+<line x1="44" y1="246" x2="716" y2="246" stroke="#1B2C47" stroke-width="1" opacity="0.16"/>
+<line x1="44" y1="276" x2="716" y2="276" stroke="#1B2C47" stroke-width="1" opacity="0.16"/>
+<line x1="44" y1="306" x2="716" y2="306" stroke="#1B2C47" stroke-width="1" opacity="0.16"/>
+<line x1="44" y1="336" x2="716" y2="336" stroke="#1B2C47" stroke-width="1" opacity="0.16"/>
+<line x1="44" y1="366" x2="716" y2="366" stroke="#1B2C47" stroke-width="1" opacity="0.16"/>
+<g class="band"><use href="#rd" stroke="#2BD4E8" stroke-width="104" stroke-linecap="round" fill="none" opacity="0.10"/></g>
+<use href="#rd" stroke="#2BD4E8" stroke-width="90" stroke-linecap="round" fill="none" opacity="0.55"/>
+<use href="#rd" stroke="#0A1324" stroke-width="84" stroke-linecap="round" fill="none"/>
+<use href="#rd" class="flow" stroke="#8295AE" stroke-width="3.4" stroke-linecap="round" fill="none" opacity="0.55"/>
+<g>
+<rect x="-19" y="-10" width="38" height="20" rx="5" fill="#FF4D7E"/>
+<rect x="-11" y="-5.5" width="18" height="11" rx="2.6" fill="#0E1728" opacity="0.9"/>
+<animateMotion dur="9s" repeatCount="indefinite" rotate="auto"><mpath href="#rd"/></animateMotion>
+</g>
+<circle cx="668" cy="212" r="36" fill="#0E1728" opacity="0.85"/>
+<circle cx="668" cy="212" r="36" fill="none" stroke="#1B2C47" stroke-width="2"/>
+<path d="M 642 230 A 32 32 0 0 1 694 230" fill="none" stroke="#1B2C47" stroke-width="3" opacity="0.55"/>
+<g class="hud" style="transform-origin:668px 212px"><line x1="668" y1="212" x2="668" y2="184" stroke="#F5B544" stroke-width="3" stroke-linecap="round"/><circle cx="668" cy="212" r="4" fill="#F5B544"/></g>
+<text class="mo" x="668" y="268" font-size="11" fill="#8295AE" text-anchor="middle" letter-spacing="1.1" opacity="0.8">PID STEER</text>
+<text class="mo" x="30" y="404" font-size="13" fill="#8295AE" letter-spacing="1.0" opacity="0.72">OPENCV AND ROS 2, NO GPU</text>
+</svg>
