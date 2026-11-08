@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 176" width="1100" height="176" role="img" aria-label="Magnetic field change crossing the warning and alert thresholds">
+<defs>
+<linearGradient id="abg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#080E1B"/><stop offset="1" stop-color="#0E1728"/></linearGradient>
+<linearGradient id="trace" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2BD4E8"/><stop offset="0.360" stop-color="#2BD4E8"/><stop offset="0.534" stop-color="#F5B544"/><stop offset="0.667" stop-color="#FF4D7E"/><stop offset="0.824" stop-color="#FF4D7E"/><stop offset="1" stop-color="#F5B544"/></linearGradient>
+<path id="tr" d="M 192.0 126.0 L 197.0 126.0 L 202.0 122.6 L 207.0 124.6 L 211.9 121.6 L 216.9 121.8 L 221.9 122.7 L 226.9 120.2 L 231.9 122.2 L 236.9 120.2 L 241.9 122.1 L 246.9 122.2 L 251.8 121.0 L 256.8 119.5 L 261.8 123.6 L 266.8 123.9 L 271.8 122.8 L 276.8 122.1 L 281.8 124.8 L 286.7 126.6 L 291.7 124.7 L 296.7 130.0 L 301.7 126.9 L 306.7 130.3 L 311.7 131.5 L 316.7 131.6 L 321.7 131.3 L 326.6 129.0 L 331.6 131.6 L 336.6 129.8 L 341.6 129.1 L 346.6 129.9 L 351.6 128.4 L 356.6 130.0 L 361.5 129.1 L 366.5 127.5 L 371.5 124.3 L 376.5 124.6 L 381.5 124.3 L 386.5 122.1 L 391.5 122.0 L 396.4 122.1 L 401.4 119.2 L 406.4 119.2 L 411.4 121.2 L 416.4 119.5 L 421.4 119.8 L 426.4 118.4 L 431.4 119.5 L 436.3 122.1 L 441.3 119.4 L 446.3 127.0 L 451.3 125.2 L 456.3 123.1 L 461.3 125.4 L 466.3 123.1 L 471.2 124.5 L 476.2 120.6 L 481.2 119.3 L 486.2 119.2 L 491.2 116.7 L 496.2 118.3 L 501.2 115.3 L 506.2 114.6 L 511.1 113.4 L 516.1 112.7 L 521.1 109.5 L 526.1 107.6 L 531.1 108.5 L 536.1 106.1 L 541.1 107.5 L 546.0 102.8 L 551.0 101.5 L 556.0 98.2 L 561.0 97.3 L 566.0 98.2 L 571.0 96.0 L 576.0 92.8 L 581.0 94.2 L 585.9 90.2 L 590.9 89.7 L 595.9 88.1 L 600.9 86.4 L 605.9 81.0 L 610.9 82.1 L 615.9 79.5 L 620.8 76.7 L 625.8 72.3 L 630.8 74.0 L 635.8 70.1 L 640.8 67.4 L 645.8 63.6 L 650.8 61.7 L 655.8 59.2 L 660.7 59.7 L 665.7 56.7 L 670.7 54.7 L 675.7 49.8 L 680.7 47.0 L 685.7 48.5 L 690.7 45.9 L 695.6 43.2 L 700.6 40.7 L 705.6 37.0 L 710.6 33.9 L 715.6 37.4 L 720.6 40.9 L 725.6 40.8 L 730.6 42.7 L 735.5 43.3 L 740.5 42.8 L 745.5 45.5 L 750.5 47.6 L 755.5 48.4 L 760.5 49.3 L 765.5 53.5 L 770.4 50.6 L 775.4 52.3 L 780.4 52.9 L 785.4 54.4 L 790.4 57.4 L 795.4 58.4 L 800.4 60.8 L 805.3 59.2 L 810.3 63.0 L 815.3 63.9 L 820.3 64.2 L 825.3 65.4 L 830.3 65.4 L 835.3 67.7 L 840.3 68.9 L 845.2 69.0 L 850.2 70.2 L 855.2 69.8 L 860.2 72.3 L 865.2 69.0 L 870.2 71.1 L 875.2 74.2 L 880.1 74.5 L 885.1 74.9 L 890.1 75.6 L 895.1 77.6 L 900.1 74.9 L 905.1 75.0 L 910.1 78.3 L 915.1 79.0 L 920.0 81.7 L 925.0 82.4 L 930.0 82.0 L 935.0 83.2" fill="none"/>
+</defs>
+<style>
+
+  .mo { font-family: ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"DejaVu Sans Mono",monospace; }
+  .nm { font-family: Inter,"Helvetica Neue",Helvetica,"Segoe UI",system-ui,Arial,sans-serif; }
+  .line { stroke-dasharray: 815; stroke-dashoffset: 815;
+           animation: sweep 10.0s linear infinite; }
+  .head { animation: fadecyc 10.0s linear infinite; }
+  .s1 { animation: st1 10.0s linear infinite; }
+  .s2 { animation: st2 10.0s linear infinite; }
+  .s3 { animation: st3 10.0s linear infinite; }
+  @keyframes sweep {
+    0% { stroke-dashoffset: 815; }
+    70.0% { stroke-dashoffset: 0; }
+    92.0% { stroke-dashoffset: 0; opacity: 1; }
+    100% { stroke-dashoffset: 0; opacity: 0; }
+  }
+  @keyframes fadecyc {
+    0%,1% { opacity: 0; } 3% { opacity: 1; }
+    70.0% { opacity: 1; }
+    73.0% { opacity: 0; } 100% { opacity: 0; }
+  }
+  @keyframes st1 { 0% {opacity:1} 36.0% {opacity:1} 36.6% {opacity:0} 96.0% {opacity:0} 100% {opacity:1} }
+  @keyframes st2 { 0%,36.0% {opacity:0} 36.6%,45.3% {opacity:1} 45.9%,56.3% {opacity:0} 56.9%,92.0% {opacity:1} 100% {opacity:0} }
+  @keyframes st3 { 0%,45.3% {opacity:0} 45.9%,56.3% {opacity:1} 56.9%,100% {opacity:0} }
+  @media (prefers-reduced-motion: reduce) {
+    .line { stroke-dashoffset: 0; animation: none; }
+    .head,.s1 { opacity: 0; animation: none; }
+    .s2 { opacity: 1; animation: none; } .s3 { opacity: 0; animation: none; }
+  }
+
+</style>
+<rect width="1100" height="176" fill="url(#abg)"/>
+<line x1="192.0" y1="132.0" x2="935.0" y2="132.0" stroke="#1B2C47" stroke-width="1" opacity="0.5"/>
+<text class="mo" x="180.0" y="136.0" font-size="11" fill="#8295AE" text-anchor="end" opacity="0.85">0</text>
+<line x1="192.0" y1="94.1" x2="935.0" y2="94.1" stroke="#F5B544" stroke-width="1" opacity="0.42" stroke-dasharray="3 6"/>
+<text class="mo" x="180.0" y="98.1" font-size="11" fill="#8295AE" text-anchor="end" opacity="0.85">5</text>
+<line x1="192.0" y1="56.3" x2="935.0" y2="56.3" stroke="#FF4D7E" stroke-width="1" opacity="0.42" stroke-dasharray="3 6"/>
+<text class="mo" x="180.0" y="60.3" font-size="11" fill="#8295AE" text-anchor="end" opacity="0.85">10</text>
+<line x1="192.0" y1="26.0" x2="935.0" y2="26.0" stroke="#1B2C47" stroke-width="1" opacity="0.22" stroke-dasharray="3 6"/>
+<text class="mo" x="180.0" y="30.0" font-size="11" fill="#8295AE" text-anchor="end" opacity="0.85">14</text>
+<text class="mo" x="945.0" y="98.1" font-size="10.5" fill="#F5B544" letter-spacing="0.8" opacity="0.9">WARNING</text>
+<text class="mo" x="945.0" y="60.3" font-size="10.5" fill="#FF4D7E" letter-spacing="0.8" opacity="0.9">ALERT</text>
+<text class="mo" x="180.0" y="16.0" font-size="10.5" fill="#8295AE" text-anchor="end" letter-spacing="0.8">µT</text>
+<text class="mo" x="192.0" y="162" font-size="10.5" fill="#8295AE" letter-spacing="0.8" opacity="0.8">FIELD CHANGE FROM BASELINE, 5-POINT AVERAGE</text>
+<use href="#tr" class="line" stroke="url(#trace)" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="head">
+<g class="s1"><circle r="12" fill="#2BD4E8" opacity="0.18"/><circle r="7" fill="#2BD4E8" opacity="0.22"/><circle r="3.4" fill="#2BD4E8"/></g>
+<g class="s2"><circle r="12" fill="#F5B544" opacity="0.18"/><circle r="7" fill="#F5B544" opacity="0.22"/><circle r="3.4" fill="#F5B544"/></g>
+<g class="s3"><circle r="12" fill="#FF4D7E" opacity="0.18"/><circle r="7" fill="#FF4D7E" opacity="0.22"/><circle r="3.4" fill="#FF4D7E"/></g>
+<animateMotion dur="10.0s" repeatCount="indefinite" keyPoints="0;1;1;1" keyTimes="0;0.700;0.920;1" calcMode="linear"><mpath href="#tr"/></animateMotion>
+</g>
+<text class="mo" x="28" y="32.0" font-size="10.5" fill="#8295AE" letter-spacing="1.1">STATUS</text>
+<g class="s1">
+<circle cx="34" cy="58.0" r="5" fill="#2BD4E8"/>
+<text class="nm" x="48" y="63.0" font-size="17" font-weight="700" fill="#2BD4E8" letter-spacing="0.2">NOMINAL</text>
+</g>
+<g class="s2">
+<circle cx="34" cy="58.0" r="5" fill="#F5B544"/>
+<text class="nm" x="48" y="63.0" font-size="17" font-weight="700" fill="#F5B544" letter-spacing="0.2">WARNING</text>
+</g>
+<g class="s3">
+<circle cx="34" cy="58.0" r="5" fill="#FF4D7E"/>
+<text class="nm" x="48" y="63.0" font-size="17" font-weight="700" fill="#FF4D7E" letter-spacing="0.2">ALERT</text>
+</g>
+<text class="mo" x="28" y="128.0" font-size="10.5" fill="#8295AE" opacity="0.8">HELIOS SHIELD</text>
+<text class="mo" x="28" y="145.0" font-size="10.5" fill="#8295AE" opacity="0.55">ALERT LOGIC</text>
+</svg>
